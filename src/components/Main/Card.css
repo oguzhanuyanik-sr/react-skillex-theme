@@ -1,0 +1,123 @@
+.cards-container {
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card-container {
+    width: 17%;
+    height: 590px;
+    overflow: hidden;
+    margin-left: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    position: relative;
+}
+
+.card-container-active {
+    width: 40%;
+}
+
+@media only screen and (max-width: 1090px) {
+    .cards-container {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .card-container-active {
+        width: 50%;
+    }
+    .card-container {
+        margin: 0;
+    }
+}
+
+.card-image {
+    transition: .5s ease-in-out;
+    position: relative;
+    left: -220px;
+    height: 110%;
+}
+
+.card-image-active {
+    left: -90px;
+}
+
+.short-title-container {
+    position: relative;
+    color: #ffffff;
+    bottom: 242px;
+    background: #1e1e2f;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transition-duration: 0.5s;
+}
+
+.short-title-container h2 {
+    position: absolute;
+    font-size: 34px;
+    transform: rotate(-90deg);
+    text-align: start;
+    width: 150px;
+    padding-left: 20px;
+}
+
+.long-title-container {
+    position: absolute;
+    bottom: 80px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0 90px;
+    color: #ffffff;
+    transition: .3s;
+}
+
+.long-title-text {
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-right: 15px;
+    width: 100%;
+}
+
+.card-title-number {
+    font-size: 52px;
+}
+
+.card-title-topics {
+    font-size: 14px;
+}
+
+.card-title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+@media only screen and (max-width: 635px) {
+    .long-title-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    .long-title-text {
+        text-align: center;
+        width: 100%;
+        margin: 0;
+        font-size: 25px;
+    }
+    .card-title-container{
+        width: 100%;
+        margin: 0;
+    }
+    .card-title-number {
+        font-size: 35px;
+    }
+    
+}

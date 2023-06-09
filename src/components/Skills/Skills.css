@@ -1,0 +1,87 @@
+.skills-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.skills-left-container,
+.skills-right-container {
+    width: 50%;
+}
+
+.blank-container {
+    border-radius: 20px;
+    height: 530px;
+    margin-left: -160px;
+    margin-top: -70px;
+    z-index: -99;
+    background: #ffffff;
+    position: relative;
+}
+
+@media only screen and (max-width: 1120px) {
+    .skills-left-container {
+        width: 40%;
+    }
+
+    .skills-right-container {
+        width: 60%;
+    }
+
+    .blank-container {
+        margin-left: -100px;
+        height: 650px;
+    }
+}
+
+.steps-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.vertical-dotted {
+    letter-spacing: 1.5px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+    transform: rotate(90deg);
+    position: absolute;
+    user-select: none;
+}
+
+.dotted-1 {
+    left: -14px;
+    top: 105px;
+}
+
+.dotted-2 {
+    left: -14px;
+    top: 275px;
+}
+
+.skills-description {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: rgba(30, 30, 47, .8);
+    margin-bottom: 40px;
+    width: 75%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .skills-container {
+        flex-wrap: wrap;
+    }
+
+    .skills-left-container,
+    .skills-right-container {
+        width: 100%;
+    }
+
+    .skills-description {
+        width: 100%;
+    }
+
+    .blank-container {
+        display: none;
+    }
+}

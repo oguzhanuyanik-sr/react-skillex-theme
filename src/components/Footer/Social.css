@@ -1,0 +1,17 @@
+.footer-social-container {
+    display: flex;
+    align-items: center;
+}
+
+.social-container {
+    background: #ffffff;
+    padding: 15px;
+    margin-left: 15px;
+    border-radius: 50%;
+}
+
+.social-container:hover {
+    background: #1e1e2f;
+    color: #ffffff;
+    transition: .3s;
+}

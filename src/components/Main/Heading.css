@@ -1,0 +1,36 @@
+.heading-container {
+    width: 30%;
+}
+
+.categories-heading {
+    margin-top: 56px;
+    font-size: 76px;
+    color: #1e1e2f
+}
+
+@media only screen and (max-width: 1090px) {
+    .heading-container {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .categories-heading {
+        font-size: 35px;
+        margin: 0;
+    }
+
+    .categories-heading br {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 635px) {
+    .heading-container {
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .categories-heading {
+        font-size: 28px;
+    }
+}

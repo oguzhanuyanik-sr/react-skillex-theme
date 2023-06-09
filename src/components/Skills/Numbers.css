@@ -1,0 +1,39 @@
+.numbers-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 124px;
+    background: #97c680;
+    width: 75%;
+}
+
+.numbers-container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.skills-number {
+    font-size: 52px;
+    margin-right: 16px;
+}
+
+.skills-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    width: 40%;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .numbers-container {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .numbers-container div {
+        width: 100%;
+    }
+}

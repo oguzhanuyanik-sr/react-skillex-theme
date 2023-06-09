@@ -1,0 +1,40 @@
+.steps-container {
+    position: relative;
+}
+
+.steps-item-container {
+    margin-bottom: 30px;
+    height: 140px;
+    display: flex;
+    opacity: 1;
+}
+
+.steps-image-container {
+    padding: 14px;
+    background: #ffffff;
+    border-radius: 24px;
+    display: inline-block;
+    position: absolute;
+}
+
+.steps-image-container img {
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+}
+
+.steps-content-container {
+    width: 30%;
+    margin-left: 75px;
+}
+
+.steps-content-container h4 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    color: #1e1e2f;
+}
+
+.steps-content-container p {
+    color: rgba(30, 30, 47, .8);
+}

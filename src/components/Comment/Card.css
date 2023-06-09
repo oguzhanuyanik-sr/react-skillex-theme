@@ -1,0 +1,31 @@
+.comment-user-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.user-description {
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-text {
+    font-size: 16px;
+    color: rgba(30, 30, 47, .7);
+    letter-spacing: 1.3px;
+    line-height: 1.3;
+    margin-bottom: 50px;
+}
+
+.comment-image {
+    height: 56px;
+    width: 56px;
+    border-radius: 50%;
+}
+
+.comment-name {
+    margin-bottom: 10px;
+}
+
+.comment-job {
+    color: #97c680;
+}

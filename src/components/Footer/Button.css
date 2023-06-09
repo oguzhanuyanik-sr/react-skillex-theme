@@ -1,0 +1,30 @@
+.nav-link {
+    color: #2f3640;
+    margin-right: 50px;
+    font-weight: 400;
+    width: 100%;
+    transition-duration: 0.3s;
+    font-size: 17px;
+}
+
+.nav-link:not(.featured-link):hover {
+    box-shadow: inset 0 -7px 0 0 darkseagreen;
+}
+
+.featured-link {
+    background: #1e1e2f;
+    color: #ffffff !important;
+    border-radius: 30px;
+    padding: 10px 30px;
+    display: flex;
+    min-width: 160px;
+    justify-content: center;
+    box-shadow: inset 0 45px 0 0 #1e1e2f;
+    transition: .5s ease;
+}
+
+.featured-link:hover {
+    background-color: #97c680;
+    box-shadow: inset 0 45px 0 -50px #1e1e2f;
+    color: #1e1e2f !important;
+}
